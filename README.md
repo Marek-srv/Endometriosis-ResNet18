@@ -9,7 +9,7 @@ Using the GLENDA Dataset (v1.5), which includes 350+ annotated images of visible
 Model:
 We leveraged transfer learning with a pre-trained Convolutional Neural Network (CNN), fine-tuning it for binary classification (Endometriosis present or absent).
 Preprocessing & Augmentation:
-Created balanced classes, split the dataset into training, validation, and test sets (70:15:15), and applied data augmentation to enhance generalization.
+Created balanced classes, split the dataset into training, validation, and test sets, and applied data augmentation to enhance generalization.
 Training:
 Used Binary Cross Entropy with Logits Loss, Adam optimizer, and early stopping to achieve stable and robust training.
 Evaluation:
